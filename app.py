@@ -17,7 +17,7 @@ def chat():
     # Generate GPT-2 chatbot response
     gpt2_response = generate_response(user_input)
     
-    # Get a music recommendation based on user input
+    # Get a music recommendation based on user inputs
     recommended_tracks = get_music_recommendation(user_input)
     
     # Combine GPT-2 response with music recommendations
